@@ -36,9 +36,9 @@ fetch("./../../assets/data/data.json")
     });
 
 
-    let counts = setInterval(() => {
-      updated();
-    }, 10);
+    // let counts = setInterval(() => {
+    //   updated();
+    // }, 10);
   
   //   let number = 0;
   
