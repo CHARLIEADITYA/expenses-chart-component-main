@@ -3,7 +3,7 @@ const date = new Date();
 var weekday = date.toLocaleString("en-US", { weekday: "short" });
 console.log(weekday);
 var setData = "";
-fetch("/assets/data/data.json")
+fetch("./assets/data/data.json")
   .then((res) => res.json())
   .then((Data) => {
     // console.log(Data.data);
